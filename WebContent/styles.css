@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Farro&family=Kanit:wght@300&family=Pacifico&display=swap');
+
+*{
+	margin: 0;
+
+}
+header{
+			width: 95%;
+			height:100%;
+			text-align: center;
+}
+
+.nav{
+	background-color: red;
+	font-size: 25px;
+	width:100%;
+	height: 45px;
+}
+
+.nav:hover{
+
+}
+li{
+	display: block;
+}
+a{
+	text-decoration: none;
+	float: left;
+	text-align: center;
+	height: 45px;
+	font-weight: lighter;	
+}
+	.nav_style{
+		font-family: 'Kanit', sans-serif;
+		height: 45px;
+		margin-right: 35px;
+		color: white;
+		padding-left: 2.5px;
+		padding-right: 2.5px;
+	}
+	.nav_style:hover{
+		background-color: #2d2926ff;
+		margin-top: 2.5px;
+		box-shadow: 0px 10px 10px 0px  #a6a6a6;
+		color: white;
+	}
+	aside{
+		margin-bottom: 150px;
+	}
+
+	.product{
+	    float: left;
+		width: 33.33%;	
+		display: block;
+	}
+	.card{
+		background-color:  #1a1a1a;
+		color: #cccccc;
+		height: 85%;
+		width: 85%;
+		padding-top: 15px;
+		padding-bottom:15px;
+		text-align: center;
+		box-shadow:  10px 10px 10px 0px  #a6a6a6;
+		font-family: 'Pacifico', cursive;
+		font-size: 20px;
+		font-weight: lighter;
+		margin-left: 35px;
+	}
+	.card:hover{
+		background-color: black;
+		margin-top: 2.5px;
+		box-shadow: 0px 10px 10px 0px  #a6a6a6;
+		color:white;
+	}
+	footer{
+		background-color: black;
+	}
+#slider{
+	overflow: hidden;
+}
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin:0;
+	left:0;
+	animation: 20s slider infinite;
+}
+
+#slider figure img{
+	float: left;
+	width:20%;	
+}
+.slider-back{
+	width: 55%;
+	height: 35%;
+	background-color: 10px 10px 10px 10px black;
+	margin-bottom: -100px;
+	padding-left:350px;
+}
+@keyframes slider{
+	0%{ left: 0%; }
+	20%{ left: 0%; }
+	25%{ left: -100%; }
+	45%{ left: -100%; }
+	50%{ left: -200%; }
+	70%{ left: -200%; }
+	75%{ left: -300%; }
+	95%{ left: -300%; }
+	100%{ left: -400%; }
+}
+.footer-login{
+  
+  width: 100%;
+  text-align: center;
+  transform: translate(-5px,700px);
+}

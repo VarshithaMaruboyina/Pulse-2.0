@@ -1,0 +1,57 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+    	
+
+    </script>
+</head>
+<body>
+
+       
+
+
+  <input type="checkbox" id="check">
+  <label for="check">
+    <i class="fa fa-bars" id="btn"></i>
+    <i class="fa fa-times" id="cancel"></i>
+  </label>
+    <div id="main">
+      <header>PULSE</header>
+      <ul id="sidenav">
+        <li><a href="home.html">home</a></li>
+          <li><a href="todo.html">todo</a></li>
+            <li><a href="reminder.jsp">reminders</a></li>
+              <li><a href="#">music</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="logout.jsp">logout</a></li>
+
+      </ul>
+   </div>
+
+
+ <div class="todo">
+      <header>TODO APP</header>
+      <input type="text" id="to" placeholder="enter your to do tasks"><i class="fa fa-plus" id="fa" onclick="newelement()"></i>
+      <ul id="elements">
+       <!--li elements will come from local storage-->
+      </ul>
+      <div class="clear">
+        <span>you have <span class="pendingnumb"></span> pending tasks</span>
+        <button id="deleteall">clear all</button>
+      </div>
+ 
+
+    </div>
+
+ <script type="text/javascript" src="todo.js"></script>
+
+   
+</body>
+</html>

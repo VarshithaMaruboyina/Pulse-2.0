@@ -1,0 +1,145 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+    
+   body{
+    	 background-color:rgba(255, 99, 71, 0.5);
+    	 margin:0;
+    	 padding:0;
+    	 box-sizing:border-box;
+    	 }
+    .music{
+     display:flex;
+     align-items:center;
+     flex-flow:column;
+	
+    }
+    .music .box{
+    height:5rem;
+    width:28%;
+    display:flex;
+    align-items:center;
+    background:white;
+    border-radius: 1rem;
+    box-shadow: 10px 5px 5px red;
+    overflow: hidden;
+    margin:1rem;
+    
+    }
+    .music .box .image
+    {
+    height:100%;
+    width:25%;
+    }
+    .box .image img{
+      height:100%;
+    width:100%;
+    
+    }
+     .music .box .audi{
+      width:100%;
+      outline:none;
+
+     }
+     .music .box .audi audio{
+      width:100%;
+      outline:none;
+
+     }
+     .music .box .audi audio::-webkit-media-controls-enclosure
+     {
+      background: none;
+     }
+    
+    </style>
+</head>
+<body>
+  <input type="checkbox" id="check">
+  <label for="check">
+    <i class="fa fa-bars" id="btn"></i>
+    <i class="fa fa-times" id="cancel"></i>
+  </label>
+    <div id="main">
+      <header>PULSE</header>
+      <ul id="sidenav">
+        <li><a href="home.jsp">home</a></li>
+          <li><a href="todo.jsp">todo</a></li>
+            <li><a href="reminder.jsp">reminders</a></li>
+              <li><a href="music.html">music</a></li>
+              <li><a href="image.jsp">gallery</a></li>
+              <li><a href="about.jsp">notes</a></li>
+              <li><a href="logout.jsp">logout</a></li>
+
+      </ul>
+
+
+
+
+    </div>
+    
+     <div class="music">
+        <h1>MUSIC</h1>
+         <div class="box">
+          <div class="image">
+          <img src="https://openai.com/content/images/2020/04/2x-no-mark-1.jpg">   
+          </div class="audi">
+            <audio src="audio_9c3c3fe13a.mp3" controls></audio>
+         </div>
+
+
+          <div class="box">
+          <div class="image">
+          <img src="https://blog.sonicbids.com/hs-fs/hubfs/shutterstock_317819021.jpg?width=620&height=414&name=shutterstock_317819021.jpg">   
+          </div class="audi">
+            <audio src="audio_9c3c3fe13a.mp3" controls></audio>
+         </div>
+
+
+          <div class="box">
+          <div class="image">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWM4kgJcIGowC_sO7CvFiEsB-Qf9iQAuDcIg&usqp=CAU"> 
+          </div class="audi">
+            <audio src="audio_9c3c3fe13a.mp3" controls></audio>
+         </div>
+
+
+          <div class="box">
+          <div class="image">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT31dpXFBQOyif4GJp7fS2-1tHVDvI6Kj13GA&usqp=CAU">   
+          </div class="audi">
+            <audio src="audio_9c3c3fe13a.mp3" controls></audio>
+         </div>
+
+          <div class="box">
+          <div class="image">
+          <img src="https://m.media-amazon.com/images/M/MV5BYTY3MmQ2NzYtZmI2ZC00MWNmLWJjNWUtYzc4YTUxODI5YjI4XkEyXkFqcGdeQXVyMzc4NzQ2ODA@._V1_.jpg">   
+          </div class="audi">
+            <audio src="audio_9c3c3fe13a.mp3" controls></audio>
+         </div>
+
+          <div class="box">
+          <div class="image">
+          <img src="https://www.bensound.com/bensound-img/hipjazz.jpg">   
+          </div class="audi">
+            <audio src="audio_9c3c3fe13a.mp3" controls></audio>
+         </div>
+
+          <div class="box">
+          <div class="image">
+          <img src="https://cdn5.vectorstock.com/i/1000x1000/61/24/urban-music-background-vector-756124.jpg">   
+          </div class="audi">
+            <audio src="audio_9c3c3fe13a.mp3" controls></audio>
+         </div>
+ </div>
+    
+    
+   
+</body>
+</html>

@@ -1,0 +1,117 @@
+
+body{
+	background-image: url("https://s3.amazonaws.com/startupcollective-com/wp-content/uploads/20151016160058/clock-675x320.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.main{
+     width:385px;
+     height:520px;
+     position:relative;
+     margin:6% auto;
+     background: #fff;
+     padding: 5px;
+
+
+}
+.input-group{
+	top:180px;
+	position: absolute;
+	width:280px;
+	transition: .5s;
+	padding-left: 35px;
+}
+#gmail,#passwd,#cpasswd,#name{
+	width:100%;
+    padding: 10px 0;
+    margin:5px 0;
+    border-left: 0;
+    border-top:0;
+    border-right: 0;
+    border-bottom:1px solid #999;
+    outline: none;
+    background: transparent;
+
+
+}
+#submit{
+	width:85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display:block;
+	margin:auto;
+	background: red;
+	border:0;
+	outline:none;
+
+}
+#rememb{
+	margin:30 10 30 0;
+	
+}
+span{
+	color:#777;
+	font-size: 12px;
+}
+h1{
+	text-align: center;
+	padding-top:10px;
+}
+
+.reg{
+	margin-top: 20px;
+}
+.heading{
+	color:brown;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+footer{
+	left:0;
+	bottom: 0;
+	position: fixed;
+	background-color: black;
+	color: white;
+	text-align: center;
+	width:100%;
+	font-size: 15px;
+	padding-bottom: 20px;
+
+}
+ footer a{
+	height:100px;
+	width:100px;
+	background-color: black;
+	border-radius: 50px;
+	margin: 10px;
+	box-shadow: 1px 4px 2px 2px grey;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right:20px;
+
+}
+a i{
+	transition :all 0.3s linear;
+}
+a:hover i{
+	transform: scale(1.4);
+}
+
+.fa-instagram{
+	color:#e84393;
+}
+.fa-twitter{
+	color:#0097e6;
+}
+.fa-facebook{
+	color:blue;
+
+}
+.socialmedia{
+	margin: 20px;
+}

@@ -1,0 +1,72 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="register1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script type="text/javascript">
+       
+      function validate()
+      {
+       var password;
+       var cpassword;
+       password=document.register.passwd.value;
+       cpassword=document.register.cpasswd.value;
+       if(password!=cpassword)
+       {
+
+        alert("passwords should match");
+        return false;
+
+       }
+       else{
+    	   
+      return true;
+       }
+
+      } 
+
+    </script>
+</head>
+<body>
+   <div class ="main">
+     <div class="heading">
+    <marquee behavior="alternate">PULSE</marquee>
+    </div>
+    
+    <form class ="input-group" method="post" name="register" onsubmit="return validate()" action="registerdata.jsp">
+
+
+        <input type="email" id="gmail" name="gmail" placeholder="Enter Email" required>
+        
+         <input type="text" id="name" name="name" placeholder="Enter Name" required>
+
+        <input type="password" id="passwd" name="passwd" placeholder="Enter Password" required>
+
+        <input type="password" id="cpasswd" name="cpasswd" placeholder="Confirm Password" onsubmit="validate()" required>
+
+        <input type="checkbox" id="rememb"><span>Remember password</span>
+
+     
+         <input type="submit" id="submit" placeholder="submit">
+          <div class="reg">
+          Already have an account ?<a href="login1.html">login</a>
+          </div>
+
+
+
+    </form>
+       
+   </div>
+    <footer>
+        <p>PULSE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp_V make difference<p>
+         <div class="socialmedia">  
+                 <a herf="#"><i class="fa fa-facebook"></i></a>
+                 <a herf="#"><i class="fa fa-instagram"></i></a>
+                 <a herf="#"><i class="fa fa-twitter"></i></a>
+        </div> 
+    </footer>
+</body>
+</html>
